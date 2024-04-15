@@ -1,0 +1,64 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #222;
+        }
+        h1 {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola</h1>
+    <input type="text" id="inp">
+    <button type="submit" id="btn">Enviar y descargar</button>
+    <script>
+        const inp = document.getElementById("inp");
+        const datos = {
+            version: 1,
+            nombre: "Brand",
+            nombre2: "Brandon2",
+            indicador: "nose",
+            formula: "E = mc2",
+            unidad: "kilogramos",
+            meta: "una tonelada alv",
+            momento: "14/04/2024",
+            alcanzado: "99%"
+        };
+
+        document.getElementById("btn").addEventListener("click", () => {
+            const link = `${window.location.href}download`;
+            console.log({link})
+            fetch(link, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(datos)
+            })
+            .then(res => res.blob())
+            .then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'documento.docx';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+            })
+            .catch(err => console.log(err));
+        });
+
+    </script>
+</body>
+</html>
