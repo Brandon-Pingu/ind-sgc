@@ -20,8 +20,8 @@ app.post('/download', (req, res) => {
   });
 });
 
-const port = process.env.port;
-app.listen(port, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", () => {
   console.log("escuchando en el puerto " + port);
 })
 
