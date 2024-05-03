@@ -56,8 +56,8 @@ app.get('/formula/:indicador', (req, res) => {
   res.json({ value: formu[indicador][0], goal: formu[indicador][1]});
 });
 
-const port = process.env.port;
-app.listen(port, () => {
+const port = process.env.port || 3000;
+app.listen(port, "0.0.0.0", () => {
   console.log("escuchando en el puerto " + port);
 })
 
