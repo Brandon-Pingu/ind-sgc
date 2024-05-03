@@ -9,9 +9,8 @@ const nombresSubP = require('./jsons/nombresSubP.json');
 
 const { writeData } = require('./fileBuilder');
 
-// app.use(express.static('public'));
+app.use(express.static('public'));
 app.use(bodyParser.json());
-
 
 app.post('/download', (req, res) => {
   
