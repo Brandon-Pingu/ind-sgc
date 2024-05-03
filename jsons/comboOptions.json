@@ -1,0 +1,61 @@
+{
+    "procesos": [
+        "académico",
+        "vinculación",
+        "planeación",
+        "administración",
+        "calidad"
+    ],
+    "academicoForms": [
+        "FO-TESCo82-proto"
+    ],
+    "vinculacionForms": [
+        ""
+    ],
+    "planeacionForms": [
+        ""
+    ],
+    "administracionForms": [
+        ""
+    ],
+    "calidadForms": [
+        ""
+    ],
+    "subA": [
+        "LAM",
+        "IGE",
+        "IND",
+        "Especialización el logística",
+        "Maestría de Administración"
+    ],
+    "subB": [
+        "EMI",
+        "TICS",
+        "SIC",
+        "MCT",
+        "Maestría en C. en Industrial",
+        "Especialización en Automatización Industrial"
+    ],
+    "subC": [
+        "ICV",
+        "IQU",
+        "IML",
+        "IAM",
+        "Maestría en Sistemas Ambientales"
+    ],
+    "subProcCarr": {
+        "PO-AC-TESCo-01": "Elaboración y Aprobación de la Instrumentación Didáctica",
+        "PO-AC-TESCo-06": "Elaboración de Horarios grupales e individuales del Personal Académico",
+        "PO-AC-TESCo-07": "Gestión del Uso de Talleres y/o Laboratorios para la Realización de Actividades Curriculares y Cocurriculares",
+        "PO-AC-TESCo-10": "Reclutamiento y Selección de Personal Académico",
+        "PO-AC-TESCo-12": "Seguimiento de  la Instrumentación Didáctica",
+        "PO-AC-TESCo-15": "Diseño de Especialidades"
+    },
+    "subProcPost": {
+        "PO-AC-TESCo-16": "Preinscripción e Inscripción al Posgrado",
+        "PO-AC-TESCo-17": "Reinscrpción al Posgrado",
+        "PO-AC-TESCo-18": "Plan de asignatura",
+        "PO-AC-TESCo-19": "Seguimiento Tutorial",
+        "PO-AC-TESCo-20": "Obtención de Grado"
+    }
+}

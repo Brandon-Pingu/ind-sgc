@@ -1,0 +1,16 @@
+{
+    "subs": {
+        "subA": {
+            "careers": ["LAM", "IGE", "IND"],
+            "postgraduates": ["Especializacion en logística", "Maestria en administración"]
+        },
+        "subB": {
+            "careers": ["EMI", "TICS", "SIC", "MCT"],
+            "postgraduates": ["Maestria en C industrial", "Especializacion en automatizacion industrial"]
+        },
+        "subC": {
+            "careers": ["ICV", "IQU", "IML", "IAM"],
+            "postgraduates": ["Maestria en sistemas ambientales"]
+        }
+    }
+}
