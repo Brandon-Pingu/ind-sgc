@@ -1,0 +1,89 @@
+{
+    "academico": {
+        "division": {
+            "subA": [
+                "LAM",
+                "IGE",
+                "IND",
+                "Especializacion en logística",
+                "Maestria en administración"
+            ],
+            "subB": [
+                "EMI",
+                "TICS",
+                "SIC",
+                "MCT",
+                "Maestria en C industrial",
+                "Especializacion en automatizacion industrial"
+            ],
+            "subC": [
+                "ICV",
+                "IQU",
+                "IML",
+                "IAM",
+                "Maestria en sistemas ambientales"
+            ],
+            "externos": {
+                "Mantenimiento preventivo": {
+                    "PO-AC-TESCo-08": "Mantenimiento Preventivo de la Infraestructura Informática"
+                },
+                "Mantenimiento correctivo": {
+                    "PO-AC-TESCo-11": "Mantenimiento Correctivo de la Infraestructura Informática"
+                },
+                "Control escolar": {
+                    "PO-AC-TESCo-02": "Preinscripción e Inscripción",
+                    "PO-AC-TESCo-03": "Reinscripción",
+                    "PO-AC-TESCo-04": "Titulación"
+                },
+                "Biblioteca": {
+                    "PO-AC-TESCo-05": "Préstamo de Acervo bibliográfico para consulta en la sala de lectura y Domicilio."
+                }
+            }
+        },
+
+        "subProcCarr": {
+            "PO-AC-TESCo-01": {
+                "name": "Elaboración y Aprobación de la Instrumentación Didáctica",
+                "inds": [
+                    {
+                        "name": "% Instrumentaciones elaboradas en tiempo y forma",
+                        "f": "No. de Instrumentaciones elaboradas de acuerdo a las fechas de entrega estipuladas/ Total de asignaturas ofertadas por carrera",
+                        "goal": "85%"
+                    },
+                    {
+                        "name": "% Instrumentaciones aprobadas por la academia",
+                        "f": "No. de Instrumentaciones aprobadas de acuerdo a las fechas de liberación estipuladas / Total de asignaturas ofertadas por carrera",
+                        "goal": "80%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-06": "Elaboración de Horarios grupales e individuales del Personal Académico",
+            "PO-AC-TESCo-07": "Gestión del Uso de Talleres y/o Laboratorios para la Realización de Actividades Curriculares y Cocurriculares",
+            "PO-AC-TESCo-10": "Reclutamiento y Selección de Personal Académico",
+            "PO-AC-TESCo-12": "Seguimiento de  la Instrumentación Didáctica",
+            "PO-AC-TESCo-15": {
+                "name": "Diseño de Especialidades",
+                "inds": [
+                    {
+                        "name": "Eficiencia de diseño de especialidad(es)",
+                        "f": "No. de especialidades autorizadas por el TecNM/ No. de especialidades propuestas. TRIANUAL",
+                        "goal": "100%"
+                    },
+                    {
+                        "name": "Vigencia de Especialidades",
+                        "f": "Fecha de vencimiento de la(s) especialidad (es) - fecha actual ANUAL",
+                        "goal": "0 año < x > 3 años",
+                        "unit": "años"
+                    }
+                ]
+            }
+        },
+        "subProcPost": {
+            "PO-AC-TESCo-16": "Preinscripción e Inscripción al Posgrado",
+            "PO-AC-TESCo-17": "Reinscrpción al Posgrado",
+            "PO-AC-TESCo-18": "Plan de asignatura",
+            "PO-AC-TESCo-19": "Seguimiento Tutorial",
+            "PO-AC-TESCo-20": "Obtención de Grado"
+        }
+    }
+}

@@ -7,6 +7,8 @@ const indicadores = require('./jsons/indicadores.json');
 const formu = require('./jsons/ind-form.json');
 const nombresSubP = require('./jsons/nombresSubP.json');
 
+const globalJSON = require('./jsons/FO-TESCo82.json');
+
 const { writeData } = require('./fileBuilder');
 
 app.use(express.static('public'));
@@ -53,6 +55,48 @@ app.get('/formula/:indicador', (req, res) => {
   const { indicador } = req.params;
   if (!Object.keys(formu).includes(indicador)) return res.status(400).json({ msg: "Clave de parametro invalida", keys: Object.keys(indicador) });
   res.json({ value: formu[indicador][0], goal: formu[indicador][1]});
+});
+
+app.post('/objectkeys', (req, res) => {
+  const path = req.body["path"] ?? [];
+  result = globalJSON;
+  for(let key of path) {
+    if (result[key] !== undefined) {
+      result = result[key];
+      //console.log(Object.keys(result))
+    } else {
+      console.log(path)
+      return res.status(400).json({"msg": "bad request"});
+    }
+  }
+
+  if (Object.keys(result)[0] == "0") { // claves solamente
+    if (typeof result[0] == "object") { // cuando son objetos
+      const newArray = result.map((element) => {
+        return element["name"];
+      });
+      return res.json(newArray)
+    }
+    res.json(result);
+  } else {
+    res.json(Object.keys(result));
+  }
+});
+
+app.post("/objectpart", (req, res) => {
+  const path = req.body["path"] ?? [];
+
+  result = globalJSON;
+  for(let key of path) {
+    if (result[key] !== undefined) {
+      result = result[key];
+    } else {
+      console.log(path)
+      return res.status(400).json({"msg": "bad request"});
+    }
+  }
+  
+  res.json(result);
 });
 
 const port = process.env.PORT || 3000;

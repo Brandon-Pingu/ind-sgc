@@ -1,0 +1,373 @@
+{
+    "academico": {
+        "division": {
+            "subA": [
+                "LAM",
+                "IGE",
+                "IND",
+                "Especializacion en logística",
+                "Maestria en administración"
+            ],
+            "subB": [
+                "EMI",
+                "TICS",
+                "SIC",
+                "MCT",
+                "Maestria en C industrial",
+                "Especializacion en automatizacion industrial"
+            ],
+            "subC": [
+                "ICV",
+                "IQU",
+                "IML",
+                "IAM",
+                "Maestria en sistemas ambientales"
+            ],
+            "externos": {
+                "Mantenimiento preventivo": {
+                    "PO-AC-TESCo-08": {
+                        "name": "Mantenimiento Preventivo de la Infraestructura Informática",
+                        "inds": [
+                            {
+                                "name": "Atención de los servicios programados",
+                                "f": "Num. de mantenimientos atendidos por semestre/ Num. de mantenimientos planificados por semestre",
+                                "goal": "90%"
+                            }
+                        ]
+                    }
+                },
+                "Mantenimiento correctivo": {
+                    "PO-AC-TESCo-11": {
+                        "name": "Mantenimiento Correctivo de la Infraestructura Informática",
+                        "inds": [
+                            {
+                                "name": "Servicios resueltos",
+                                "f": "Num. de problemáticas resueltas en el semestre/Num de servicios solicitados en el semestre",
+                                "goal": "90%"
+                            }
+                        ]
+                    }
+                },
+                "Control escolar": {
+                    "PO-AC-TESCo-02": {
+                        "name": "Preinscripción e Inscripción",
+                        "inds": [
+                            {
+                                "name": "% de atención a la Demanda Educativa",
+                                "f": "No. de estudiantes inscritos(as) / No. de aspirantes aceptados(as).",
+                                "goal": "80%"
+                            }
+                        ]
+                    },
+                    "PO-AC-TESCo-03": {
+                        "name": "Reinscripción",
+                        "inds": [
+                            {
+                                "name": "% de reinscritos(as)",
+                                "f": "No. de estudiantes reinscritos(as) por semestre/ No. de matrícula del período anterior - egresados(as) - bajas, definitivas - bajas temporales.",
+                                "goal": "95%"
+                            }
+                        ]
+                    },
+                    "PO-AC-TESCo-04": {
+                        "name": "Titulación",
+                        "inds": [
+                            {
+                                "name": "% anual de Titulados(as)",
+                                "f": "No. de titulados(as) al semestre / No. de egresados(as) al semestre",
+                                "goal": "20%"
+                            }
+                        ]
+                    }
+                },
+                "Biblioteca": {
+                    "PO-AC-TESCo-05": {
+                        "name": "Préstamo de Acervo bibliográfico para consulta en la sala de lectura y Domicilio.",
+                        "inds": [
+                            {
+                                "name": "Libros prestados en sala",
+                                "f": "No. de ejemplares prestados en sala/ No. de ejemplares solicitados en sala",
+                                "goal": "95%"
+                            },
+                            {
+                                "name": "Libros prestados a domicilio",
+                                "f": "No. de ejemplares prestados a domicilio/ No. de ejemplares solicitados a domicilio",
+                                "goal": "95%"
+                            },
+                            {
+                                "name": "Personas usuarias satisfechas con la atención y servicio ofrecido por el CIyD",
+                                "f": "No. de encuestas con respuesta en rubros muy satisfactorio y satisfactorio/ Total de encuestas",
+                                "goal": "80%"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "subProcCarr": {
+            "PO-AC-TESCo-01": {
+                "name": "Elaboración y Aprobación de la Instrumentación Didáctica",
+                "inds": [
+                    {
+                        "name": "% Instrumentaciones elaboradas en tiempo y forma",
+                        "f": "No. de Instrumentaciones elaboradas de acuerdo a las fechas de entrega estipuladas/ Total de asignaturas ofertadas por carrera",
+                        "goal": "85%"
+                    },
+                    {
+                        "name": "% Instrumentaciones aprobadas por la academia",
+                        "f": "No. de Instrumentaciones aprobadas de acuerdo a las fechas de liberación estipuladas / Total de asignaturas ofertadas por carrera",
+                        "goal": "80%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-06": {
+                "name": "Elaboración de Horarios grupales e individuales del Personal Académico",
+                "inds": [
+                    {
+                        "name": "Eficiencia en la elaboración de horarios grupales",
+                        "f": "Número de horarios grupales completos capturados en el Xook previo al periodo de inscripción y reinscripción/ Número total de horarios grupales programados del PE",
+                        "goal": "90%"
+                    },
+                    {
+                        "name": "Eficiencia de asignaturas cubiertas al inicio del semestre",
+                        "f": "Número de asignaturas cubiertas al inicio del semestre /Número total de asignaturas programadas",
+                        "goal": "85%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-07": {
+                "name": "Gestión del Uso de Talleres y/o Laboratorios para la Realización de Actividades Curriculares y Cocurriculares",
+                "inds": [
+                    {
+                        "name": "Atención a requisiciones de Talleres y/o Laboratorios",
+                        "f": "Número de requisiciones atendidas en Talleres y/o Laboratorios/  Número de requisiciones en Talleres y/o Laboratorios",
+                        "goal": "75%"
+                    },
+                    {
+                        "name": "Eficiencia en la Realización de Actividades en Talleres y/o Laboratorios",
+                        "f": "Número de Actividades realizadas por semestre/ Número de Actividades programadas en el semestre.",
+                        "goal": "75%"
+                    },
+                    {
+                        "name": "Grado de Satisfacción en la Realización de Actividades en Talleres y/o Laboratorios",
+                        "f": "Número de encuestas de satisfacción con calificación muy de acuerdo y algo de acuerdo en el semestre/ Número de encuestas de satisfacción entregadas en el semestre.",
+                        "goal": "85%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-10": {
+                "name": "Reclutamiento y Selección de Personal Académico",
+                "inds": [
+                    {
+                        "name": "Candidatos(as) seleccionados",
+                        "f": "Candidatos(as) seleccionados para la vacante/ Candidatos(as) que cumplen el perfil profesional",
+                        "goal": ">60%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-12": {
+                "name": "Seguimiento de  la Instrumentación Didáctica",
+                "inds": [
+                    {
+                        "name": "Instrumentaciones validadas",
+                        "f": "No de instrumentaciones validadas en tiempo y forma/ No. de instrumentaciones por asignatura del Programa Educativo en el semestre",
+                        "goal": "85%"
+                    },
+                    {
+                        "name": "Instrumentaciones Revisadas",
+                        "f": "No. de Instrumentaciones revisadas mensualmente/ No. de Instrumentaciones por asignatura del Programa Educativo en el semestre",
+                        "goal": "85%"
+                    },
+                    {
+                        "name": "Docentes supervisados(as) en clase al semestre",
+                        "f": "No. de docentes supervisados(as) en clase al Semestre / No. de docentes adscritos(as) al Programa Educativo en el semestre.",
+                        "goal": "15%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-15": {
+                "name": "Diseño de Especialidades",
+                "inds": [
+                    {
+                        "name": "Eficiencia de diseño de especialidad(es)",
+                        "f": "No. de especialidades autorizadas por el TecNM/ No. de especialidades propuestas. TRIANUAL",
+                        "goal": "100%"
+                    },
+                    {
+                        "name": "Vigencia de Especialidades",
+                        "f": "Fecha de vencimiento de la(s) especialidad (es) - fecha actual ANUAL",
+                        "goal": "0 año < x > 3 años",
+                        "unit": "años"
+                    }
+                ]
+            }
+        },
+        "subProcPost": {
+            "PO-AC-TESCo-16": {
+                "name": "Preinscripción e Inscripción al Posgrado",
+                "inds": [
+                    {
+                        "name": "% Absorción de la demanda",
+                        "f": "No. de Inscritos(as) al Programa de Posgrado / No de Aspirantes aceptados(as) en el programa de Posgrado",
+                        "goal": "70%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-17": {
+                "name": "Reinscrpción al Posgrado",
+                "inds": [
+                    {
+                        "name": "% de Reinscritos",
+                        "f": "No de estudiantes reinscritos(as) por semestre/ No de matrícula del período anterior - Egresados(as)- Bajas Definitivas- Bajas Temporales",
+                        "goal": "70%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-18": {
+                "name": "Plan de asignatura",
+                "inds": [
+                    {
+                        "name": "% Asignaturas supervisadas en clase en el semestre",
+                        "f": "No. de asignaturas supervisadas en el semestre / No de avances prográmaticos de las asignaturas ofertadas en el semestre",
+                        "goal": "70%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-19": {
+                "name": "Seguimiento Tutorial",
+                "inds": [
+                    {
+                        "name": "% seguimiento del programa de posgrado",
+                        "f": "No. de estudiantes atendidos(as) en los seminarios de investigación/ No. de estudiantes inscritos(as) en los seminarios de investigación",
+                        "goal": "80%"
+                    }
+                ]
+            },
+            "PO-AC-TESCo-20": {
+                "name": "Obtención de Grado",
+                "inds": [
+                    {
+                        "name": "% graduados(as) del programa de posgrado",
+                        "f": "No. de graduados(as) al semestre/ No. de estudiantes con el 60% de créditos en el semestre inmediato anterior",
+                        "goal": "10%"
+                    }
+                ]
+            }
+        }
+    },
+    "administracion": {
+        "division": {
+            "Administracion de personal": {
+                "PO-AD-TESCo-02": {
+                    "name": "Capacitación del Personal Administrativo.",
+                    "inds": [
+                        {
+                            "name": "Total de Cursos",
+                            "f": "Cursos impartidos / Cursos programados.",
+                            "goal": "80%"
+                        },
+                        {
+                            "name": "Asistencia total",
+                            "f": "Número de personas que asistieron al curso/ Número de personas convocadas",
+                            "goal": "80%"
+                        },
+                        {
+                            "name": "Efectividad del curso tomado",
+                            "f": "Número de personas que aplica conocimientos de cursos tomados en su área/ Número de personas que asisten al curso",
+                            "goal": "80%"
+                        }
+                    ]
+                },
+                "PO-AD-TESCo-03": {
+                    "name": "Reclutamiento, selección y contratación de Personal Administrativo.",
+                    "inds": [
+                        {
+                            "name": "Plazas contratadas de personal directivo",
+                            "f": "No de plazas contratadas de personal directivo/ No de plazas autorizadas en el tabulador de personal Directivo ",
+                            "goal": "90%"
+                        },
+                        {
+                            "name": "Plazas contratadas de personal administrativo",
+                            "f": "Número de plazas contratadas de personal administrativo/ Número de plazas autorizadas en el tabulador de personal administrativo",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Plazas contratadas de personal directivo y administrativo",
+                            "f": "Número de plazas contratadas de personal directivo y administrativo / número de plazas autorizadas en el tabulador de personal directivo y administrativo",
+                            "goal": "95%"
+                        }
+                    ]
+                }
+            },
+            "Recursos materiales y servicios Generales": {
+                "PO-AD-TESCo-01": {
+                    "name": "Adquisición de Bienes y Contratación de Servicios.",
+                    "inds": [
+                        {
+                            "name": "Solicitudes Atendidas",
+                            "f": "Total de solicitud 'FO-TESCo-21' Atendidas/Total de solicitud 'FO-TESCo-21' Recibidas",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Pedidas y Recibidas",
+                            "f": "Total de mercancías recibidas por pedido 'FO-TESCO-84'/ Total de mercancías solicitada por pedido",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Proveedores Acreditados",
+                            "f": "Total de proveedores eficientes/ Total de evaluación de proveedores mediante el 'FO-TESCO-34'",
+                            "goal": "95%"
+                        }
+                    ]
+                },
+                "PO-AD-TESCo-05": {
+                    "name": "Mantenimiento de Infraestructura",
+                    "inds": [
+                        {
+                            "name": "Mantenimiento preventivo realizado",
+                            "f": "Total de Mantenimiento Preventivo Realizado / Programa de Mantenimiento Preventivo",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Mantenimiento correctivo realizado",
+                            "f": "Total de Mantenimiento correctivo realizado/ Mantenimiento correctivo solicitado",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Servicio de jardinería realizado",
+                            "f": "Servicio de jardinería realizado/ Servicio de jardinería solicitado",
+                            "goal": "95%"
+                        },
+                        {
+                            "name": "Servicio de limpieza ejecutado",
+                            "f": "Servicio de limpieza ejecutado/ Servicio de limpieza programado",
+                            "goal": "95%"
+                        }
+                    ]
+                }
+            },
+            "Presupuesto y contabilidad": {
+                "PO-AD-TESCo-04": {
+                    "name": "Elaboración del Registro del Presupuesto Ejercido Mensualmente",
+                    "inds": [
+                        {
+                            "name": "Presentación y entrega de Avances financieros programados",
+                            "f": "Avances financieros mensuales entregados/Avances financieros mensuales programados",
+                            "goal": "83%"
+                        },
+                        {
+                            "name": "Liberación de ministraciones por Subsidio Estatal programado",
+                            "f": "Número de ministraciones liberadas/ Número de ministraciones por subsidio programadas",
+                            "goal": "70%"
+                        },
+                        {
+                            "name": "Suficiencia presupuestal clara y oportuna",
+                            "f": "Solicitudes de suficiencia presupuestal atendidas/ Solicitudes de suficiencia presupuestal solicitadas",
+                            "goal": "80%"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

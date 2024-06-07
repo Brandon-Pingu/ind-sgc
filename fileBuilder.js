@@ -28,7 +28,6 @@ const writeData = data => {
     fs.writeFileSync(path.resolve(__dirname, "docs/output.docx"), buf);
     return path.resolve(__dirname, "docs/output.docx");
 }
-
 module.exports = {
     writeData
 }
