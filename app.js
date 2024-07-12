@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+
 const combos = require('./jsons/comboOptions.json');
 const indicadores = require('./jsons/indicadores.json');
 const formu = require('./jsons/ind-form.json');
@@ -91,8 +92,8 @@ app.post("/objectpart", (req, res) => {
     if (result[key] !== undefined) {
       result = result[key];
     } else {
-      console.log(path)
-      return res.status(400).json({"msg": "bad request"});
+      console.log(path);
+      return res.status(400).json({"msg": "bad request, wrong path", "path" : path});
     }
   }
   
@@ -102,7 +103,7 @@ app.post("/objectpart", (req, res) => {
 const port = process.env.PORT || 3000;
 app.listen(port, "0.0.0.0", () => {
   console.log("escuchando en el puerto " + port);
-})
+});
 
 // domain: https://proyecto-sgc.up.railway.app/
 //         https://ind-sgc-production-47a7.up.railway.app/
