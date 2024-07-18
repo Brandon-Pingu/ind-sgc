@@ -102,6 +102,7 @@ app.post("/objectpart", (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, "0.0.0.0", () => {
+  console.log("server activo");
   console.log("escuchando en el puerto " + port);
 });
 
