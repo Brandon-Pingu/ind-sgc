@@ -369,5 +369,166 @@
                 }
             }
         }
+    },
+    "planeacion":{
+        "PO-PL-TESCo-05":{
+            "name": "Programa anual del TESCo",
+            "inds": [
+                {
+                    "name": "Cumplimiento de metas trimestral",
+                    "f": "No. De metas alcanzadas en el trimestre/No. De metas programadas en el trimestre",
+                    "goal": "80%"
+                },
+                {
+                    "name": "Cumplimiento de metas anual",
+                    "f": "No. De metas alcanzadas en el año/No. De metas programadas en el año",
+                    "goal": "80%"
+                }
+            ]
+        }
+    },
+    "vinculacion":{
+        "PO-VI-TESCo-01":{
+            "name": "Servicio Social",
+            "inds": [
+                {
+                    "name": "% de estudiantes que realizan el Servicio Social en tiempo y forma ",
+                    "f": "No. de estudiantes que inician el Servicio Social en el semestre  / No. de estudiantes en posibilidad de realizar el Servicio Social",
+                    "goal": "60%"
+                },
+                {
+                    "name": "% estudiantes que concluyen el Servicio Social ",
+                    "f": "No. de estudiantes que concluyen el Servicio Social  / No. de estudiantes que inician el Servicio Social",
+                    "goal": "65%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-02":{
+            "name": "Gestión de visitas industriales",
+            "inds": [
+                {
+                    "name": "% de visitas industriales realizadas ",
+                    "f": "Total de visitas realizadas/Total de visitas autorizadas ",
+                    "goal": "70%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-03":{
+            "name": "Residencia Profesional",
+            "inds": [
+                {
+                    "name": "% estudiantes que realizan la Residencia Profesional en tiempo y forma ",
+                    "f": "No. de estudiantes que inician la Residencia Profesional en el semestre  / No. de estudiantes en posibilidad de realizar la Residencia Profesional  ",
+                    "goal": "60%"
+                },
+                {
+                    "name": "% estudiantes que concluyen la Residencia Profesional en tiempo y forma ",
+                    "f": "No. de estudiantes que concluyen la Residencia Profesional/ No. de estudiantes que inician la Residencia Profesional.",
+                    "goal": "65%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-04":{
+            "name": "Difusión de la Oferta Educativa",
+            "inds": [
+                {
+                    "name": "Eficiencia de la Difusión de la oferta Educativa",
+                    "f": "Número de aspirantes interesados(as) por difusión / Total de aspirantes registrados(as) en las difusiones ",
+                    "goal": "70%"
+                },
+                {
+                    "name": "Eficiencia o cumplimiento en el Plan Semestral de Trabajo ",
+                    "f": "Número de escuelas visitadas o atendidas de manera virtual / Numero  de escuelas programadas",
+                    "goal": "70%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-05":{
+            "name": "Actividades Culturales y Deportivas",
+            "inds": [
+                {
+                    "name": "Índice de estudiantes participantes en actividades Culturales",
+                    "f": "Total de estudiantes participantes en Actividades Culturales/ Matrícula total de estudiantes inscritos(as) del TESCo",
+                    "goal": "30%"
+                },
+                {
+                    "name": "Índice de estudiantes participantes en actividades Deportivas",
+                    "f": "Total de estudiantes participantes en actividades deportivas/ Matricula total de estudiantes inscritos(as) en el TESCo.",
+                    "goal": "50%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-06":{
+            "name": "Seguimiento de Egresados",
+            "inds": [
+                {
+                    "name": "% Total de egresados(as) localizados(as)",
+                    "f": "Número total de egresados(as) contactados/ Número de egresados(as)*100",
+                    "goal": "10%"
+                }
+            ]
+        },
+        "PO-VI-TESCo-07":{
+            "name": "Bolsa de Trabajo",
+            "inds": [
+                {
+                    "name": "Candidatos(as) colocados(as)",
+                    "f": "Número de candidatos(as) colocados(as)/ Número de vacantes ofertadas",
+                    "goal": "10%"
+                }
+            ]
+        }
+    },
+    "calidad":{
+        "PO-CA-TESCo-01":{
+            "name": "Información Documentada",
+            "inds": [
+                {
+                    "name": "Información documentada registrada",
+                    "f": "Total de documentos registrados en la Lista  de Información Documentada/Total de documentos recibidos",
+                    "goal": "95%"
+                },
+                {
+                    "name": "Información documentada actualizada",
+                    "f": "Total de documentos actualizados en plataforma/ Total de documentos registrados en la lista de Información documentada",
+                    "goal": "95%"
+                }
+            ]
+        },
+        "PO-CA-TESCo-03":{
+            "name": "Auditoría Interna",
+            "inds": [
+                {
+                    "name": "Auditorías realizadas en el año",
+                    "f": "Total de auditorias realizadas / Total de auditorias programadas",
+                    "goal": "80%"
+                },
+                {
+                    "name": "Capacitación del personal en el año",
+                    "f": "Cursos impartidos/ Cursos programados",
+                    "goal": "80%"
+                }
+            ]
+        },
+        "PO-CA-TESCo-04":{
+            "name": "Control de Salidas No Conformes",
+            "inds": [
+                {
+                    "name": "Salidas No conformes Solventadas",
+                    "f": "Total de Salidas No conformes resueltas/Total de Salidas No Conformes Detectadas",
+                    "goal": "80%"
+                }
+            ]
+        },
+        "PO-CA-TESCo-05":{
+            "name": "Acciones Correctivas",
+            "inds": [
+                {
+                    "name": "Acciones correctivas solventadas",
+                    "f": "Total de Acciones Correctivas Resueltas / Total de Acciones Correctivas Detectadas",
+                    "goal": "80%"
+                }
+            ]
+        }
     }
 }

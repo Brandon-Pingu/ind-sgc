@@ -67,7 +67,7 @@ app.post('/objectkeys', (req, res) => {
       //console.log(Object.keys(result))
     } else {
       console.log(path)
-      return res.status(400).json({"msg": "bad request"});
+      return res.status(400).json({"msg": "bad request", "path": path});
     }
   }
 
